@@ -38,3 +38,7 @@ fcover.tif
 radar.tif
 tree-cover.tif
 ```
+
+Download and store these files in the `costa-rica-carbon/data/` directory. Additional data processing is handled in the `01-data-processing.ipynb` notebook, which performs no-data handling and other data manipulation tasks.
+
+A note of warning -- these datasets are fairly large, and a series of large temporary files are created along the way. Make sure you have a few gigabytes of storage available for processing.
