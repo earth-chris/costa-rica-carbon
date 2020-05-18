@@ -28,6 +28,13 @@ python setup.py install
 conda env config vars set IPYTHONDIR=$PWD/ipython
 ```
 
+## Notebooks
+
+Once you're in the `carbono` conda environment, run `jupyter notebook` to access and run the notebooks. These are organized by the order in which they should be run.
+
+* `01-data-processing.ipynb` is where the brute-force geospatial data processing occurs, and precedes all modeling.
+* `02-modeling.ipynb` is where the tree height and carbon modeling occurs 
+
 ## Datasets
 
 All data used here are stored in the team's Google Drive directory under `NASA - Costa Rica/Costa Rica Data/Chris data`. Download the following files to run these notebooks:
